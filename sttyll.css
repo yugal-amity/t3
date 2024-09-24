@@ -1,0 +1,171 @@
+:root{
+    --main-color:#4e2b9b;
+}
+* {
+    margin: 2px;
+    padding: -2px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+
+}
+
+.header {
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px;
+    padding: 8px;
+    color: aliceblue;
+    
+
+
+}
+
+.header .navbar a {
+    font-size: 1.2rem;
+
+    margin: 0 1rem;
+    color: white;
+
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+
+
+}
+.navbar {
+    left: 757px;
+    position: absolute;
+
+}
+
+img {
+    width: auto;
+    height: 717px;
+
+    padding: 46px;
+
+
+}
+
+.image img {
+    position: absolute;
+    margin: -105px;
+    height: 375px;
+    top: 50%;
+    right: 28%;
+    border-radius: 51%;
+    width: 399px;
+
+}
+
+.information {
+    position: absolute;
+    top: 48%;
+    color: white;
+    left: 21%;
+}
+.information .infor{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+.Contact{
+    position: absolute;
+    top: 111%;
+    color: rgb(160, 9, 9);
+    left: 13%;
+    font-size: 26px;
+  
+}
+   
+
+.information .iam{
+    font-size: 20px;
+}
+.iam span{
+    color: orangered;
+}
+.information .iam p{
+    text-align: center;
+}
+
+.img{
+    position: absolute;
+    margin: -102px;
+    padding: -39px;
+    right: 169px;
+}
+.header{
+    overflow: hidden;
+}
+#About{
+    position: absolute;
+    color: wheat;
+    height: 90px;
+    width: 516px;
+    left: 80px;
+    font-size: 22px;
+}
+#About h1{
+    font-size: 62px;
+    padding: 22px;
+}
+#Skills h1{
+    position: absolute;
+    font-size: 62px;
+    padding: 22px;
+    color: white;
+    left: 872px;
+}
+#Skills .div{
+    position: absolute;
+    color: white;
+    left: 880Px;
+    top: 877px;
+    font-size: 42px;
+}
+#Skills p{
+    font-size: 22px;
+}
+#Skills .div1{
+    position: absolute;
+    color: white;
+    left: 1007px;
+    top: 873px;
+    font-size: 42px;
+}
+#Skills .div2{
+    position: absolute;
+    color: white;
+    left: 938px;
+    top: 1008px;
+    font-size: 42px;
+}
+#Skills .python{
+    position: absolute;
+    color: white;
+    left: 878px;
+    top: 1132px;
+    font-size: 42px;
+
+}
+#Skills .SQL{
+    position: absolute;
+    color: white;
+    left: 1029px;
+    top: 1132px;
+    font-size: 42px;
+}
